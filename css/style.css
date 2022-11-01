@@ -337,21 +337,9 @@ nav ul li a:hover:after {
     opacity: 0;
 }
 
-.btn-animated {
+.btn-animate {
     animation: moveInBottom 5s ease-out;
     animation-fill-mode: backwards;
-}
-
-@keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
 }
 
 
